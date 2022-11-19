@@ -1,0 +1,10 @@
+:root{
+    --dark: rgb(54, 54, 129);
+    --light: rgb(94, 94, 231);
+}
+
+header ul{
+    display:flex;
+    text-align: right;
+    flex-direction: row;
+}
