@@ -47,7 +47,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](./Assets/images/02-advanced-css-homework-demo.gif)
 
 
 ## Grading Requirements
@@ -104,3 +104,6 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+https://www.wallpaperflare.com/black-brick-wall-building-brick-texture-dark-pattern-backgrounds-wallpaper-zvmry
