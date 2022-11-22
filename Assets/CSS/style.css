@@ -1,16 +1,29 @@
-:root{
-    --dark: rgb(54, 54, 129);
-    --light: rgb(94, 94, 231);
+:root {
+    --dark: rgb(122, 119, 118);
+    --light: rgb(163, 162, 162);
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family: var(--font);
+   background-color: rgb(90, 90, 90);
+   color: rgb(190, 190, 190);
+   border-left: solid black 5px;
+   
+
+}
+
+header{
+    font-size: 70px;
+    margin-left: 30px;
+    
 
 }
 header nav {
     padding-top: 10px;
-    margin-right: 10px;
-    float: right;
+    margin-right: 20px;
+    text-align: right;
     font-size: 20px;
+    
 }
 
 header nav ul {
@@ -19,6 +32,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
+    color: black;
     margin-left: 20px;
 }
 
@@ -28,13 +42,13 @@ header nav ul li {
   
   .text-block {
     position: absolute;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var (--font);
     border: solid 2px;
     border-color: rgb(215, 216, 184);
     bottom: 20px;
     right: 20px;
     background-image: linear-gradient(
-        rgb(192, 187, 186 ) 0%, rgb(122, 119, 118) 100%
+        rgb(192, 187, 186 ) 0%, var(--dark) 100%
     );
     box-shadow: inset 0px 0px 8px black, 0 0 15px white;
     color: black;
@@ -42,3 +56,153 @@ header nav ul li {
     padding-right: 20px;
     font-size: 50px;
   }
+  
+.about-me-topic, .work-topic, .contact-me-topic, .resume-topic {
+    font-family: var (--font);
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-left: 8px;
+    border-left: solid black 5px;
+}
+
+.about-me-topic p, .work-topic p, .contact-me-topic p, .resume-topic p {
+    font-family: var(--font);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.spacing-p {
+    margin-top: 20px;
+}
+
+
+.topic-name {
+    font-family: var(--font);
+    font-size: 30px;
+}
+
+.area-box {
+    margin: 10px;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-1 {
+    border: solid black 2px;
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    background-image: url(/Assets/images/surf-background.jpg);
+}
+
+.box-2 {
+    border: solid black 2px;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    background-image: url(/Assets/images/LED-background.webp);
+}
+ 
+.box-3 {
+    border: solid black 2px;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    background-image: url(/Assets/images/calculator-background.jpg);
+}
+  
+
+.box-4 {
+    border: solid black 2px;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    background-image: url(/Assets/images/puzzle-background.png);
+}
+
+.box-5 {
+    border: solid black 2px;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    flex-grow: 2;
+    text-align: center;
+    background-image: url(/Assets/images/Run-background.png);
+}
+
+.box-title {
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 190px;
+    font-family: var(--font);
+    border: solid black 2px;
+    bottom: 5px;
+    left: 5px;
+    background-image: linear-gradient(
+        rgb(192, 187, 186 ) 0%, var(--dark) 100%
+    );
+    box-shadow: inset 0px 0px 8px black, 0 0 15px white;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+strong {
+    font-size: 25px;
+}
+
+div nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+div nav ul {
+    list-style-type: none;
+}
+
+div nav ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .text-block {
+        position: absolute;
+        font-family: var(--font);
+        border: solid 2px;
+        border-color: rgb(215, 216, 184);
+        bottom: 10px;
+        right: 10px;
+        background-image: linear-gradient(
+            rgb(192, 187, 186 ) 0%, var(--dark) 100%
+        );
+        box-shadow: inset 0px 0px 8px black, 0 0 15px white;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 35px;
+    }
+}
