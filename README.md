@@ -106,4 +106,14 @@ You are required to submit BOTH of the following for review:
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
 
-https://www.wallpaperflare.com/black-brick-wall-building-brick-texture-dark-pattern-backgrounds-wallpaper-zvmry
+brick wall - https://www.wallpaperflare.com/black-brick-wall-building-brick-texture-dark-pattern-backgrounds-wallpaper-zvmry
+
+surf - https://www.istockphoto.com/photos/black-and-white-surf
+
+led - https://onewayeventproductions.com/the-wow-factor-everything-you-need-to-know-about-led-video-walls/
+
+calculator - https://www.thestartupfounder.com/free-carbon-footprint-calculator-in-javascript/
+
+puzzle - https://www.dreamstime.com/puzzle-background-outline-black-white-vector-illustration-pieces-image115198339
+
+run - https://github.com/tanyaleepr/run-buddy-website
