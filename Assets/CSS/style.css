@@ -101,7 +101,7 @@ a {
     padding: 5px;
     position: relative;
     text-align: center;
-    background-image: url(/Assets/images/surf-background.jpg);
+    background-image: url(../images/surf-background.jpg);
 }
 
 .box-2 {
@@ -111,7 +111,7 @@ a {
     height: 150px;
     position: relative;
     text-align: center;
-    background-image: url(/Assets/images/LED-background.webp);
+    background-image: url(../images/LED-background.webp);
 }
 
 .box-3 {
@@ -120,7 +120,7 @@ a {
     height: 150px;
     position: relative;
     text-align: center;
-    background-image: url(/Assets/images/calculator-background.jpg);
+    background-image: url(../images/calculator-background.jpg);
 }
 
 .box-4 {
@@ -130,7 +130,7 @@ a {
     height: 150px;
     position: relative;
     text-align: center;
-    background-image: url(/Assets/images/horiseon-background.png);
+    background-image: url(../images/horiseon-background.png);
 }
 
 .box-5 {
@@ -139,7 +139,7 @@ a {
     height: 150px;
     position: relative;
     text-align: center;
-    background-image: url(/Assets/images/Run-background.png);
+    background-image: url(../images/Run-background.png);
 }
 
 .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover {
