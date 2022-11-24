@@ -114,6 +114,6 @@ led - https://onewayeventproductions.com/the-wow-factor-everything-you-need-to-k
 
 calculator - https://www.thestartupfounder.com/free-carbon-footprint-calculator-in-javascript/
 
-puzzle - https://www.dreamstime.com/puzzle-background-outline-black-white-vector-illustration-pieces-image115198339
+horiseon - https://jordannotavailable.github.io/CSS-Demo-Site/
 
 run - https://github.com/tanyaleepr/run-buddy-website
